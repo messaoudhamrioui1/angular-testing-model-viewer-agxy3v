@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: portainer/angular-builder
+    runs-on: node
     strategy:
       matrix:
         node-version: [14.x, 16.x, 18.x]
